@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run fetch:tickers:*)",
+      "Bash(npm run fetch:data:weekly:*)",
+      "Bash(set ALPHA_VANTAGE_API_KEY=4B3P9TZAMZA7976R)",
+      "Bash(npm run fetch:data:alphavantage:*)",
+      "Bash($env:ALPHA_VANTAGE_API_KEY=\"4B3P9TZAMZA7976R\")",
+      "Bash(ALPHA_VANTAGE_API_KEY=4B3P9TZAMZA7976R npm run fetch:data:alphavantage:*)"
+    ]
+  }
+}

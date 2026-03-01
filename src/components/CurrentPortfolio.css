@@ -1,0 +1,294 @@
+.current-portfolio {
+  padding: 0;
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-controls {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.portfolio-header h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.portfolio-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 0;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.sort-controls label,
+.period-selector label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-700);
+}
+
+.period-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.period-select {
+  padding: 8px 12px;
+  border: 1px solid var(--gray-300);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  background: white;
+  color: var(--gray-700);
+  cursor: pointer;
+  min-width: 140px;
+  max-height: 120px;
+}
+
+.period-select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 0;
+  background: var(--gray-100);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.sort-buttons button {
+  padding: 6px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray-600);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.sort-buttons button:hover {
+  color: var(--gray-900);
+}
+
+.sort-buttons button.active {
+  background: white;
+  color: var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.holdings-table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.holdings-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.holdings-table thead {
+  background: var(--gray-50);
+  border-bottom: 2px solid var(--gray-200);
+}
+
+.holdings-table th {
+  padding: 12px 16px;
+  font-weight: 600;
+  color: var(--gray-700);
+  white-space: nowrap;
+}
+
+.holdings-table tbody tr {
+  border-bottom: 1px solid var(--gray-200);
+  transition: background 0.15s;
+}
+
+.holdings-table tbody tr:hover {
+  background: var(--gray-50);
+}
+
+.holdings-table tbody tr.sma-above {
+  background: rgba(22, 163, 74, 0.03);
+}
+
+.holdings-table tbody tr.sma-below {
+  background: rgba(220, 38, 38, 0.03);
+}
+
+.holdings-table tbody tr.sma-above:hover {
+  background: rgba(22, 163, 74, 0.08);
+}
+
+.holdings-table tbody tr.sma-below:hover {
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.holdings-table td {
+  padding: 14px 16px;
+  color: var(--gray-700);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.symbol-cell strong {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+.description-cell {
+  color: var(--gray-600);
+  font-size: 13px;
+}
+
+.value-cell strong {
+  font-size: 15px;
+  color: var(--gray-900);
+}
+
+.positive {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.negative {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+/* Ensure return cells have proper color even with row backgrounds */
+.holdings-table tbody tr .return-cell.positive {
+  color: var(--success) !important;
+  font-weight: 600;
+}
+
+.holdings-table tbody tr .return-cell.negative {
+  color: var(--danger) !important;
+  font-weight: 600;
+}
+
+.sma-cell {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.sma-cell.above {
+  color: var(--success);
+}
+
+.sma-cell.below {
+  color: var(--danger);
+}
+
+.sma-indicator {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.portfolio-footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--gray-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.legend {
+  display: flex;
+  gap: 24px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--gray-600);
+}
+
+.legend-indicator {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.legend-indicator.above {
+  color: var(--success);
+}
+
+.legend-indicator.below {
+  color: var(--danger);
+}
+
+.data-note {
+  font-size: 12px;
+  color: var(--gray-500);
+  margin: 0;
+}
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.loading-state .spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--gray-200);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 16px;
+}
+
+.loading-state p {
+  color: var(--gray-600);
+  font-size: 14px;
+}
+
+@media (max-width: 1400px) {
+  .holdings-table-wrapper {
+    overflow-x: scroll;
+  }
+
+  .holdings-table {
+    min-width: 1600px;
+  }
+}

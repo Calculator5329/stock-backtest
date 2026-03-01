@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "exchange": "NASDAQ",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway Inc.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart Inc.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble Co.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Inc.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  },
+  {
+    "symbol": "DIS",
+    "name": "Walt Disney Co.",
+    "exchange": "NYSE",
+    "assetType": "Stock"
+  }
+]

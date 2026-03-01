@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "QQQ",
+    "name": "Invesco QQQ Trust",
+    "exchange": "NASDAQ",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "VTI",
+    "name": "Vanguard Total Stock Market ETF",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "IWM",
+    "name": "iShares Russell 2000 ETF",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "EEM",
+    "name": "iShares MSCI Emerging Markets ETF",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "VEA",
+    "name": "Vanguard FTSE Developed Markets ETF",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "AGG",
+    "name": "iShares Core U.S. Aggregate Bond ETF",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  },
+  {
+    "symbol": "GLD",
+    "name": "SPDR Gold Shares",
+    "exchange": "NYSE",
+    "assetType": "ETF"
+  }
+]

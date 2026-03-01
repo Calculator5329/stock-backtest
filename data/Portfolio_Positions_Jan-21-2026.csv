@@ -1,0 +1,23 @@
+﻿Account Number,Account Name,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis Total,Average Cost Basis,Type
+Z25424500,Growth Portfolio,META,META PLATFORMS INC CLASS A COMMON STOCK,26.4,$612.96,+$8.84,$16182.14,+$233.37,+1.46%,+$10329.65,+176.50%,25.56%,$5852.49,$221.69,Margin,
+Z25424500,Growth Portfolio,GOOGL,ALPHABET INC CAP STK CL A,39.6,$328.38,+$6.38,$13003.84,+$252.64,+1.98%,+$7040.16,+118.05%,20.54%,$5963.68,$150.60,Margin,
+Z25424500,Growth Portfolio,AMZN,AMAZON.COM INC,44.25,$231.31,+$0.31,$10235.46,+$13.71,+0.13%,+$2405.91,+30.72%,16.17%,$7829.55,$176.94,Margin,
+Z25424500,Growth Portfolio,PYPL,PAYPAL HLDGS INC COM,107.5,$55.89,+$0.81,$6008.17,+$87.07,+1.47%,-$878.32,-12.76%,9.49%,$6886.49,$64.06,Margin,
+Z25424500,Growth Portfolio,TXRH,TEXAS ROADHOUSE INC,20,$191.36,-$3.39,$3827.20,-$67.80,-1.75%,+$1927.08,+101.41%,6.05%,$1900.12,$95.01,Margin,
+Z25424500,Growth Portfolio,DUOL,DUOLINGO INC CL A COM,21.35,$146.81,-$1.77,$3134.39,-$37.79,-1.20%,-$1286.13,-29.10%,4.95%,$4420.52,$207.05,Margin,
+Z25424500,Growth Portfolio,AMD,ADVANCED MICRO DEVICES INC,10.6,$249.80,+$17.88,$2647.88,+$189.52,+7.70%,+$1207.13,+83.78%,4.18%,$1440.75,$135.92,Margin,
+Z25424500,Growth Portfolio,ASML,ASML HOLDING NV EUR0.09 NY REGISTRY SHS 2012,1.75,$1360.09,+$34.02,$2380.15,+$59.53,+2.56%,+$1010.18,+73.73%,3.76%,$1369.97,$782.84,Margin,
+Z25424500,Growth Portfolio,MELI,MERCADOLIBRE INC COM USD0.001,0.8,$2057.77,+$22.95,$1646.21,+$18.36,+1.12%,-$26.41,-1.58%,2.60%,$1672.62,$2090.78,Margin,
+Z25424500,Growth Portfolio,NKE,NIKE INC CLASS B COM NPV,18.9,$65.41,+$1.78,$1236.24,+$33.64,+2.79%,-$119.63,-8.83%,1.95%,$1355.87,$71.74,Margin,
+Z25424500,Growth Portfolio,ADBE,ADOBE INC COM,4.075,$294.23,+$3.86,$1198.98,+$15.72,+1.32%,-$230.35,-16.12%,1.89%,$1429.33,$350.76,Margin,
+Z25424500,Growth Portfolio,NFLX,NETFLIX INC,8.75,$85.36,-$1.90,$746.90,-$16.63,-2.18%,-$45.13,-5.70%,1.18%,$792.03,$90.52,Margin,
+Z25424500,Growth Portfolio,MA,MASTERCARD INCORPORATED CL A,1.375,$527.57,-$4.17,$725.40,-$5.74,-0.79%,-$18.39,-2.48%,1.15%,$743.79,$540.94,Margin,
+Z25424500,Growth Portfolio,SPAXX**,HELD IN MONEY MARKET,,,,$214.32,,,,,0.34%,,,Cash,
+Z25424500,Growth Portfolio,CELH,CELSIUS HLDGS INC COM NEW,2,$56.44,-$0.25,$112.88,-$0.50,-0.45%,+$30.65,+37.27%,0.18%,$82.23,$41.12,Margin,
+Z25424500,Growth Portfolio,Pending activity,,,,,$0.00,,,,,,,,,
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC (FBS), 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National Financial Services LLC (NFS). Both are Fidelity Investment companies and members SIPC, NYSE. Neither FBS nor NFS offer crypto as a direct investment nor provide trading or custody services for such assets."
+
+"Date downloaded Jan-21-2026 11:18 p.m ET"
